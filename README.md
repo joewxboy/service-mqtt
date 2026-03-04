@@ -18,6 +18,8 @@ export MQTT_USERNAME=<desired-username>
 export MQTT_PASSWORD=<desired-password>
 ```
 
+If you want to additionally secure MQTT by configuring SSL, you may edit the `mosquitto.conf` file, adapting the instructions from step 3 of this [guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-secure-the-mosquitto-mqtt-messaging-broker-on-debian-10#step-3-%E2%80%94-configuring-mqtt-ssl).
+
 #### Publishing:
 
 ```
